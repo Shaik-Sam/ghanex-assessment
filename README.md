@@ -10,13 +10,22 @@ Three independent Streamlit applications built with Python, the Groq API and fre
 
 Each folder is self-contained with its own `requirements.txt`, `.env.example`, tests and README, so each can be deployed on its own.
 
+## Live demos
+
+| Task | Live app |
+|------|----------|
+| 1. PDF Document Assistant (RAG) | https://task1-pdf-assistant.streamlit.app/ |
+| 2. Tool-Calling AI Agent | https://task2-ai-agent.streamlit.app/ |
+| 3. GitHub Repository AI Analyzer | https://task3-repo-analyzer.streamlit.app/ |
+
+If an app is asleep, open it and click the wake-up button. Apps on the free tier need a few seconds to start, and the RAG app downloads its embedding model on the first run.
+
 ## Repository layout
 
 ```
 .
 ├── README.md
 ├── SUBMISSION.md
-├── CONTRIBUTION-GUIDE.md
 ├── task1-rag/
 │   ├── app.py
 │   ├── rag/
